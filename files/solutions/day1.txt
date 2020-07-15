@@ -1,0 +1,62 @@
+1. Various method in console function :
+
+console.log() - used to print the output in the console. 
+  Ex: console.log('abc'); 
+  output: abc
+
+console.error() - used to print error message in console.
+   Ex: console.error("this is an error message");
+   output: this is an error message(the output will be highlighted in red colour)
+   
+console.warn() - used to print warning message in console.
+   Ex: console.warn("this is a warning message");
+   output: this is a warning message(the output will be highligthed)
+   
+console.clear() - used to clear the console. 
+
+console.time() and console.timeEnd() - used to record time for a certain block of code. 
+
+console.table() - used to show contents of an array in tabular form in the console.
+
+console.count() - used to count the number of times the function is used.
+
+
+----------------------------------------------------------------------------------------------
+
+2. var, let and const-
+
+  var - it is a container where we can store some types of data in it and can be used globally in the whole program.
+  Ex:  var greeter = "hey hi";
+    
+    function newFunction() {
+        var hello = "hello";
+    }
+    
+  let - it is used to declare a variable wityh same name in specific block and that variable can only be used in that specific block only. 
+  Ex:   let greeting = "say Hi";
+   let times = 4;
+
+   if (times > 3) {
+        let hello = "say Hello instead";
+        console.log(hello);// "say Hello instead"
+    }
+   console.log(hello) // hello is not defined
+   
+   
+  const - it is used to declare a constant.
+  
+  Ex:   const greeting = "say Hi";
+    greeting = "say Hello instead";// error: Assignment to constant variable. 
+  
+----------------------------------------------------------------------------------------------
+
+3. Data Types in Javascript:
+
+   Numbers, Strings, Booleans, array, Object are the variable types in javascript. 
+   
+   var length = 16;                               // Number
+   var lastName = "Johnson";                      // String
+   var x = {firstName:"John", lastName:"Doe"};    // Object
+   var cars = ["Saab", "Volvo", "BMW"];           // Arrays
+   var b=10>20                                    // Boolean
+   
